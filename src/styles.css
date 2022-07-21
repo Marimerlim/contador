@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+section {
+  background-color: violet;
+  width: 230px;
+  margin: 150px auto;
+  height: 100px;
+  display: flex;
+
+  border-radius: 20px;
+}
+
+.conter {
+  display: flex;
+  flex-direction: initial;
+  align-items: center;
+  color: rgb(105, 0, 56);
+  border-radius: 20px;
+}
+
+h1 {
+  width: 80px;
+  border-bottom: solid violet;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+button {
+  padding: 30px;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
